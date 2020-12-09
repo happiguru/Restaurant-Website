@@ -1,0 +1,24 @@
+{
+  "name": "Restaurant-Website",
+  "version": "1.0.0",
+  "description": "Restaurant Website build using JavaScript (ES6) and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happiguru/Restaurant-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happiguru/Restaurant-Website/issues"
+  },
+  "homepage": "https://github.com/happiguru/Restaurant-Website#readme",
+  "devDependencies": {
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
