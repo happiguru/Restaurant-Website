@@ -1,17 +1,19 @@
+
 function pageInfo(){
     const content = document.querySelector("#content");
-    const text = document.createElement('div');
 
-    const heading1 = document.createElement('h1');
+    const section = document.createElement('section');
+    const head2 = document.createElement('h2');
+    const para = document.createElement('p');
 
-    const p1 = document.createElement('p');
-    const p2 = document.createElement('p');
+    section.classList.add("section-one");
 
-    text.classList.add("text");
-    p1.textContent = "This example use media queries to stack the topnav vertically when the screen size is 600px or less."
+    head2.textContent = "It is part of the ingredients that feels our Soul!";
+    para.textContent = "LOREM IPSUM DOLOR SIT, AMET CONSECTETUR ADIPISICING ELIT. A QUOS, VOLUPTATUM ILLUM MOLLITIA DOLORES LIBERO PLACEAT NESCIUNT QUASI ADIPISCI IMPEDIT!LOREM IPSUM DOLOR SIT, AMET CONSECTETUR ADIPISICING ELIT. A QUOS, VOLUPTATUM ILLUM MOLLITIA DOLORES LIBERO PLACEAT NESCIUNT QUASI ADIPISCI IMPEDIT! LOREM IPSUM DOLOR SIT, AMET CONSECTETUR ADIPISICING ELIT. A QUOS, VOLUPTATUM ILLUM MOLLITIA DOLORES LIBERO PLACEAT NESCIUNT QUASI ADIPISCI IMPEDIT!LOREM IPSUM DOLOR SIT";
 
-    text.appendChild(p1);
-    content.append(text);
+    section.append(head2, para);
+    content.appendChild(section);
+    
 }
 
 export default pageInfo;
