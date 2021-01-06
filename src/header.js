@@ -14,6 +14,11 @@ function header(){
     const anchor2 = document.createElement('a');
     const anchor3 = document.createElement('a');
     const anchor4 = document.createElement('a');
+    anchor1.href = "./index.html";
+    anchor2.href = "#";
+    anchor3.href = "#";
+    anchor4.href = "#";
+    
 
     header.classList.add("main-header");
     navbar.classList.add("navbar");
