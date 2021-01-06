@@ -14,7 +14,7 @@ This projects implements the use of JavaScript concepts about the use of webpack
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](http://www.lekunzestanley.me/Restaurant-Website/index.html)
 
 
 ## Getting Started
